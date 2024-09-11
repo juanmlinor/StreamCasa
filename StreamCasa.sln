@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamCasa.Entities", "StreamCasa.Entities\StreamCasa.Entities.csproj", "{4B22736A-757C-4D68-B1DD-F36C9C40644E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application Business Rules", "Application Business Rules", "{E64507A1-1D77-4BE0-8E0A-840E015B22B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enterprise Business Rules", "Enterprise Business Rules", "{82DCFD31-92D8-4E66-9514-B075032E5FE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces Adapters", "Interfaces Adapters", "{001160BD-5EE7-4AAF-B699-EE4162CD8886}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frameworks and Drivers", "Frameworks and Drivers", "{39B8FDA7-7E5C-4A93-8C0B-7E516D51987D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamCasa.Abstractions", "StreamCasa.Abstractions\StreamCasa.Abstractions.csproj", "{6033E8DF-6988-40D6-BD2D-71F32DBB00D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B22736A-757C-4D68-B1DD-F36C9C40644E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B22736A-757C-4D68-B1DD-F36C9C40644E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B22736A-757C-4D68-B1DD-F36C9C40644E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B22736A-757C-4D68-B1DD-F36C9C40644E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6033E8DF-6988-40D6-BD2D-71F32DBB00D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6033E8DF-6988-40D6-BD2D-71F32DBB00D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6033E8DF-6988-40D6-BD2D-71F32DBB00D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6033E8DF-6988-40D6-BD2D-71F32DBB00D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4B22736A-757C-4D68-B1DD-F36C9C40644E} = {82DCFD31-92D8-4E66-9514-B075032E5FE1}
+		{6033E8DF-6988-40D6-BD2D-71F32DBB00D0} = {82DCFD31-92D8-4E66-9514-B075032E5FE1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFE0E8BD-0204-4DC9-A25E-6FCFD72AEB9E}
+	EndGlobalSection
+EndGlobal
